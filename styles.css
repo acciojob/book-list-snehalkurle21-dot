@@ -1,1 +1,84 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0 60px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 300;
+    margin: 30px 0;
+    color: #222;
+}
+
+/* Form container */
+.form-group {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/* Labels */
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 6px;
+    margin-top: 12px;
+}
+
+/* Input fields */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cfd6e0;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: #0d6efd;
+}
+
+/* Add Book button */
+#submit {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0d6efd;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #0b5ed7;
+}
+
+/* Table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.table thead th {
+    font-size: 18px;
+    border-bottom: 2px solid #222;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table rows */
+.table tbody tr {
+    background-color: #f5f5f5;
+}
+
+.table tbody td {
+    padding: 12px;
+    font-size: 16px;
+    border-bott
